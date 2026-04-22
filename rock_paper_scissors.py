@@ -11,11 +11,8 @@ def game():
     if user not in choices:
         print("Invalid choice")
         return
-
     computer_choice=random.choice(choices)
     print("computer:",computer_choice)
-
-    
     if user==computer_choice:
         print("Result:Tie") 
     elif (user=="rock" and computer_choice=="scissor") or (user=="scissors" and computer_choice=="paper") or (user=="paper" and computer_choice=="rock"):
