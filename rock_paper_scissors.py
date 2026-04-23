@@ -15,7 +15,7 @@ def game():
     print("computer:",computer_choice)
     if user==computer_choice:
         print("Result:Tie") 
-    elif (user=="rock" and computer_choice=="scissor") or (user=="scissors" and computer_choice=="paper") or (user=="paper" and computer_choice=="rock"):
+    elif (user=="rock" and computer_choice=="scissors") or (user=="scissors" and computer_choice=="paper") or (user=="paper" and computer_choice=="rock"):
         print("YOU WIN")
     else:
         print("COMPUTER WIN")
